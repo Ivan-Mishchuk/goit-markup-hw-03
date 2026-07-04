@@ -1,0 +1,58 @@
+/* Features Section */
+
+/* .features {
+    padding: 120px 0;
+}
+
+.features-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--color-navy);
+    margin-bottom: 72px;
+}
+
+.features-subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy);
+    margin-bottom: 8px;
+}
+
+.features-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+} */
+
+
+
+
+
+
+.features {}
+
+.features-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--color-navy);
+}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-navy);
+}
+
+.features-text {
+    font-weight: 400;
+}
