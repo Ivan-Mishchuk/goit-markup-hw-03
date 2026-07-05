@@ -7,9 +7,9 @@
 }
 
 .header .container {
-    max-width: 1158px;
+    /* max-width: 1158px;
     margin: 0 auto;
-    padding: 0px 15px;
+    padding: 0px 15px; */
 
     display: flex;
     align-items: center;
@@ -25,7 +25,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-navy);
-    width: 115px;
 
     display: flex;
     align-items: center;
@@ -51,14 +50,15 @@
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
-    width: 253px;
-    padding: 24px 0px;
+    
 }
 
 .nav-link,
 .nav-link-features {
+    display: inline-block;
     font-weight: 500;
     color: var(--color-navy);
+    padding: 24px 0px;
 }
 .nav-link:hover,
 .nav-link-features:hover,
@@ -74,7 +74,6 @@
 .header-address {}
 
 .contact-list {
-        width: 344px;
         display: flex;
         align-items: center;
         justify-content: flex-start;

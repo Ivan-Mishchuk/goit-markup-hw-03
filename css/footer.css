@@ -37,11 +37,11 @@
     padding: 100px 0px;
 }
 
-.footer .container {
+/* .footer .container {
     padding: 0px 15px;
     margin: 0 auto;
     max-width: 1158px;
-}
+} */
 
 .footer-logo {
     display: inline-block;
@@ -62,4 +62,5 @@
 .footer-text {
     font-weight: 400;
     color: var(--color-cloud);
+    max-width: 264px
 }

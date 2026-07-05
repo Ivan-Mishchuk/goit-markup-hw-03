@@ -54,7 +54,13 @@ body {
     letter-spacing: 0.02em;
 }
 
-.features-title {
+.container {
+    padding: 0px 15px;
+    margin: 0 auto;
+    max-width: 1158px;
+}
+
+.sr-only {
     position: absolute;
     white-space: nowrap;
     width: 1px;
