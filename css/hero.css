@@ -1,54 +1,15 @@
-/* Hero Section */
-
-/* .hero {
-    padding: 188px 0;
-    text-align: center;
-    background-color: var(--color-navy);
-    background-image:
-        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url('../images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.hero-title {
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: var(--color-white);
-    margin-bottom: 48px;
-}
-
-.hero-btn {
-    padding: 16px 32px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--color-white);
-    background-color: var(--color-iris);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-    background-color: var(--color-ocean);
-} */
-
-
-
-
-
-
-
+/* Hero Section 2*/
 
 .hero {
     background-color: var(--color-navy);
+    padding: 188px 0px;
+}
+
+.hero .container {
+    background-color: var(--color-navy);
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0px 15px;
 }
 
 .hero-title {
@@ -57,6 +18,7 @@
     line-height: 1.07;
     text-align: center;
     color: var(--color-white);
+    padding-bottom: 48px;
 }
 
 .hero-btn {
@@ -66,6 +28,12 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-white);
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: auto;
 }
 
 .hero-btn:hover,

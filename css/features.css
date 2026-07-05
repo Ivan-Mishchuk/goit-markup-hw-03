@@ -1,38 +1,13 @@
-/* Features Section */
+/* Features Section 3*/
 
-/* .features {
-    padding: 120px 0;
+.features {
+    padding: 120px 0px;
 }
 
-.features-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: var(--color-navy);
-    margin-bottom: 72px;
+.features .container{
+    padding: 0px 15px;
+    max-width: 1158px;
 }
-
-.features-subtitle {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-navy);
-    margin-bottom: 8px;
-}
-
-.features-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-} */
-
-
-
-
-
-
-.features {}
 
 .features-title {
     font-weight: 700;
@@ -40,11 +15,20 @@
     line-height: 1.11;
     text-align: center;
     color: var(--color-navy);
+    
 }
 
-.features-list {}
+.features-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+}
 
-.features-item {}
+.features-item {
+    max-width: 264px;
+}
 
 .features-subtitle {
     font-weight: 500;
